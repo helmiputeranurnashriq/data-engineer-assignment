@@ -1,7 +1,10 @@
+-- CHECK AND CREATE DB IF NOT EXIST IN LOCAL
 CREATE DATABASE if not exists bookstore_pos;
 
+-- GO TO DB
 USE bookstore_pos;
 
+-- CHECK AND CREATE TABLE FOR customers, invoices, invoice_lines IF NOT EXISTS
 CREATE TABLE if not exists customers (
 	id int primary key,
     name varchar(80) not null,
@@ -35,6 +38,7 @@ CREATE TABLE if not exists invoice_lines (
     invoice_id int references invoices(id)
 );
 
+-- ADD DATA FOR EACH TABLE
 INSERT INTO customers (
 	id,
     name,
