@@ -24,3 +24,9 @@ c. Show the SQL query for a list of customers who never purchased anything\
 d. Show the SQL query for list of book purchased with the users\
 [SQL SHOW Query to pull list of books purchased with cust name](https://github.com/helmiputeranurnashriq/sql_de/blob/main/Question%202%20d.sql)
 You can attempt this question in any SQL based database (SQLSRV, MYSQL, OracleDB)\
+
+**QUESTION 3:**<br>
+Based on Question 2, implement all queries and the ingestion/extraction process of Appendix A in Python.
+You can attempt this question in your own development workspace and share GitHub repository or gist URL.
+
+[PythonSQL](https://github.com/helmiputeranurnashriq/data-engineer-assignment/blob/main/question3.ipynb)
